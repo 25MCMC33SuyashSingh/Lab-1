@@ -1,0 +1,19 @@
+body{
+    background-color: #ff86;
+}
+.header{
+    text-align: center;
+    background-color: skyblue;
+    color: white ;
+}
+
+.highlight{
+    color: yellow;
+}
+
+.footer{
+    background-color: skyblue;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
