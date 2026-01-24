@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    width: 400px;
+    margin: 30px auto;
+}
+
+.input-box input, button {
+    padding: 6px;
+    margin: 5px 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+.filters button {
+    margin-right: 5px;
+}
+
+li {
+    list-style: none;
+    padding: 8px;
+    margin: 5px 0;
+    background: #f4f4f4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
