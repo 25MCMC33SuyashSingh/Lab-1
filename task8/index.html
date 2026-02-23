@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Book Catalog</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<h2>📚 Book Catalog</h2>
+
+<div class="filters">
+    Genre:
+    <select id="genreFilter">
+        <option value="all">All</option>
+        <option value="Fiction">Fiction</option>
+        <option value="Programming">Programming</option>
+        <option value="Self Help">Self Help</option>
+    </select>
+
+    Author:
+    <input type="text" id="authorFilter" placeholder="Enter author name">
+
+    Price:
+    <select id="priceFilter">
+        <option value="all">All</option>
+        <option value="0-300">Below 300</option>
+        <option value="300-500">300 - 500</option>
+        <option value="500+">Above 500</option>
+    </select>
+</div>
+
+<table id="bookTable">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Genre</th>
+            <th>Price</th>
+            <th>Year</th>
+        </tr>
+    </thead>
+    <tbody></tbody>
+</table>
+
+<script src="script.js"></script>
+
+</body>
+</html>

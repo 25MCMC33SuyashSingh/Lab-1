@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+
+    <book>
+        <title>The Alchemist</title>
+        <author>Paulo Coelho</author>
+        <genre>Fiction</genre>
+        <price>350</price>
+        <date>1988</date>
+    </book>
+
+    <book>
+        <title>Clean Code</title>
+        <author>Robert Martin</author>
+        <genre>Programming</genre>
+        <price>550</price>
+        <date>2008</date>
+    </book>
+
+    <book>
+        <title>Atomic Habits</title>
+        <author>James Clear</author>
+        <genre>Self Help</genre>
+        <price>420</price>
+        <date>2018</date>
+    </book>
+
+    <book>
+        <title>You Don’t Know JS</title>
+        <author>Kyle Simpson</author>
+        <genre>Programming</genre>
+        <price>480</price>
+        <date>2015</date>
+    </book>
+
+    <book>
+        <title>Ikigai</title>
+        <author>Hector Garcia</author>
+        <genre>Self Help</genre>
+        <price>300</price>
+        <date>2016</date>
+    </book>
+
+</catalog>
